@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Signup Page</title>
+</head>
+
+<body>
+
+    <img src="./img5.jpg" class="img">
+
+    <div class="box-logo">
+        <img src="./logo.png" class="logo">
+        <h3 class="name-company">Disneyland</h3>
+    </div>
+
+    <h1 class="title">Get Started</h1>
+
+
+    <div class="input-box">
+        <p class="text">Name:</p>
+        <input type="text" placeholder="Amirmohammad" class="input" id="name" onblur="nameValidation()"><br>
+        <span class="alert" id="name-validation"></span>
+
+        <p class="text">Email:</p>
+        <input type="text" placeholder="amirmmdjf2006@gmail.com" class="input" id="email" onblur="emailValidation()"><br>
+        <span class="alert" id="email-validation"></span>
+
+        <p class="text">Password:</p>
+        <input type="password" class="input" id="password" placeholder="**********" onblur="passwordValidation()"><br>
+        <span class="alert" id="password-validation"></span>
+    </div>
+
+    <button class="signup-button">Sign Up</button>
+
+    <div class="sign-in">
+        <p>Already have an account <u class="sign-in-link">sign in</u></p>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
+
+
