@@ -7,7 +7,7 @@ body{
 .img{
     float: right;
     width: 900px;
-    height: 712px;
+    height: 750px;
 }
 
 .logo{
@@ -98,4 +98,35 @@ body{
 
 .sign-in-link:hover{
     color: rgba(0, 41, 102, 0.864);
+}
+
+
+
+
+@media screen and (max-width: 1400px) {
+    .img{
+        width: 700px;
+        height: 750px;
+    }
+}
+
+@media screen and (max-width: 1285px) {
+    .img{
+        width: 600px;
+        height: 750px;
+    }
+}
+
+@media screen and (max-width: 1085px) {
+    .img{
+        width: 500px;
+        height: 750px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .img{
+        width: 0px;
+        height: 0px;
+    }
 }
